@@ -1,0 +1,21 @@
+# OS / IDE noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Personal data — never commit real shopping requests, only sanitized examples
+requests/
+*.private.yaml
+*.private.md
+
+# Editor temp / lock files
+*~
+*.swp
+*.swo
+
+# Cursor build artifacts (canvases live elsewhere; keep this defensive)
+canvases/
+*.canvas.status.json
+*.canvas.data.json

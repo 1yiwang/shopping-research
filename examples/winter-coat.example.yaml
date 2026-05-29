@@ -1,0 +1,74 @@
+# Example request: winter overcoat for European job interviews.
+# This is a SANITIZED example — replace bracketed fields with your own values.
+#
+# Usage:
+#   1. Copy this file to your workspace as `requests/<YYYY-MM>-winter-coat.yaml`
+#   2. Edit fields with your real data (sizes, budget, image keywords)
+#   3. Tell Cursor: "用 shopping-research，按 requests/<file>.yaml 跑一份报告"
+
+request:
+  context: >-
+    Recent grad job-hunting in [city] for [industry] roles. Need an overcoat
+    that reads as polished interview-ready outerwear without trend signaling,
+    layers over a suit jacket, and survives a continental European winter.
+
+  image_keywords:
+    - "minimal"
+    - "post-student polish"
+    - "quiet luxury"
+    - "neutral palette"
+
+  delivery_region: "Switzerland"   # Switzerland | Germany | EU | UK
+  currency: "CHF"
+
+  sizes:
+    top: "EU [size]"
+    height_cm: 0
+    weight_kg: 0
+
+  deadline: "within 6 weeks"
+
+  global:
+    accept_secondhand: true
+    avoid_fast_fashion: false
+    sustainability_priority: "medium"
+
+items:
+  - id: winter_coat
+    type: "Wool overcoat — single-breasted"
+    purpose: "Interviews + commute, 0–5 °C climate, layers over suit jacket"
+    must_have:
+      - "wool ≥ 60%"
+      - "no logo / no brand mark"
+      - "knee length or longer"
+      - "neutral color (camel, navy, charcoal, or black)"
+    nice_to_have:
+      - "fully lined sleeves"
+      - "Italian or British wool"
+      - "removable inner liner"
+    avoid:
+      - "puffer / down style"
+      - "metallic hardware (zips, large buckles)"
+      - "trendy print or color block"
+      - "boxy oversized cut (shoulder line should sit clean)"
+    budget:
+      currency: "CHF"
+      max: 250
+      ideal: 180
+    color_palette: ["camel", "navy", "charcoal", "black"]
+    notes: >-
+      Needs slight ease across shoulders to fit over a suit jacket.
+      Prefer below-knee length — looks more professional than mid-thigh.
+
+stores:
+  include:
+    - mango
+    - massimo_dutti
+    - cos
+    - arket
+    - vinted_ch
+    - zalando_ch
+    - uniqlo
+  exclude:
+    - shein
+    - bestsecret    # login wall, agent cannot browse

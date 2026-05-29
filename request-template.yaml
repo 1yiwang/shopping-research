@@ -1,0 +1,55 @@
+# Shopping Research request template.
+# Fill one of these per shopping round, save under requests/<YYYY-MM>-<tag>.yaml.
+
+request:
+  # Why you are buying — drives image_keywords and store selection.
+  context: ""
+
+  # 3–5 short style descriptors. Keep concrete.
+  # Examples: "minimal", "去学生气", "quiet luxury", "smart-casual",
+  # "banking/consulting", "creative tech", "old money".
+  image_keywords: []
+
+  # Where the items will ship to. Drives currency + store list.
+  delivery_region: "Switzerland"   # Switzerland | Germany | EU | UK | ...
+  currency: "CHF"                  # CHF | EUR | GBP | USD
+
+  # Your default sizes — override per item if needed.
+  sizes:
+    top: ""        # e.g. "EU 36 (S)"
+    bottom: ""     # e.g. "EU 36 / W26"
+    shoe: ""       # e.g. "EU 37"
+    height_cm: 0
+    weight_kg: 0
+
+  # When you need it.
+  deadline: ""     # free-text, e.g. "within 4 weeks"
+
+  # Hard preferences that apply to ALL items.
+  global:
+    accept_secondhand: true        # Vinted / Vestiaire / etc.
+    avoid_fast_fashion: false      # true = drop Shein/Primark even if cheap
+    sustainability_priority: "low" # low | medium | high
+
+# One entry per item to research. The skill will produce 3 tiered
+# recommendations per entry.
+items:
+  - id: ""                         # short slug, e.g. "white_shirt"
+    type: ""                       # human label, e.g. "白色衬衫"
+    purpose: ""                    # e.g. "面试 + 西装内搭"
+    must_have: []                  # hard filters; failing one drops the candidate
+    nice_to_have: []               # weighted bonuses
+    avoid: []                      # hard exclusions
+    budget:
+      currency: "CHF"
+      max: 0                       # ceiling per item
+      ideal: 0                     # sweet spot, optional
+    size_override: ""              # if different from request.sizes
+    color_palette: []              # e.g. ["white"], ["black", "nude"]
+    notes: ""                      # free-text constraints
+
+# Stores to consider. Empty = use the default shortlist for delivery_region
+# from site-registry.md. List explicit names to override.
+stores:
+  include: []                      # e.g. ["uniqlo", "mango", "vinted"]
+  exclude: []                      # e.g. ["shein", "amazon"]
