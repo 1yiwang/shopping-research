@@ -71,10 +71,14 @@ The Canvas report has six sections:
 
 ## Roadmap
 
+Highlights:
+
+- Free-text intake (paragraph → schema) in addition to YAML
 - More region presets (UK, Germany, Singapore, Hong Kong)
-- Deeper sustainability filter (OEKO-TEX, GOTS, B-Corp)
-- Optional Python adapter layer (Playwright) for live price/stock on key stores
+- Optional Python adapter layer (Playwright) for live price / stock / login-walled stores
 - Pair with a downstream `price-watch` skill once a candidate is selected
+
+Full thinking — phased architecture (B → C), input format evolution, planned & excluded sites, open design questions — lives in [ROADMAP.md](ROADMAP.md).
 
 ## Contributing
 
