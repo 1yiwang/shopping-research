@@ -20,20 +20,20 @@ git clone https://github.com/1yiwang/shopping-research.git ~/.cursor/skills/shop
 
 That's it — open Cursor in any project and the skill is available globally.
 
-To verify, ask Cursor: *"列出我已安装的 skills"*.
+To verify, ask Cursor: *"List my installed skills"*.
 
 ## Use
 
 In any Cursor chat, simply say:
 
 ```
-跑 shopping-research：我需要黑色通勤包，无 logo，适合 finance/consulting 面试，预算 100 CHF。
+Run shopping-research: I need a black commuter bag, no logo, suitable for finance / consulting interviews, budget 100 CHF.
 ```
 
 Or, for a more involved request, fill in [`request-template.yaml`](request-template.yaml), save it as `requests/<YYYY-MM>-<tag>.yaml` in your workspace, and tell the agent:
 
 ```
-用 shopping-research，按 requests/2026-06-winter-coat.yaml 跑一份报告。
+Use shopping-research with requests/2026-06-winter-coat.yaml and produce a report.
 ```
 
 See [`examples/winter-coat.example.yaml`](examples/winter-coat.example.yaml) for a sanitized full example.

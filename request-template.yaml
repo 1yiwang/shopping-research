@@ -6,7 +6,7 @@ request:
   context: ""
 
   # 3–5 short style descriptors. Keep concrete.
-  # Examples: "minimal", "去学生气", "quiet luxury", "smart-casual",
+  # Examples: "minimal", "post-student polish", "quiet luxury", "smart-casual",
   # "banking/consulting", "creative tech", "old money".
   image_keywords: []
 
@@ -35,8 +35,8 @@ request:
 # recommendations per entry.
 items:
   - id: ""                         # short slug, e.g. "white_shirt"
-    type: ""                       # human label, e.g. "白色衬衫"
-    purpose: ""                    # e.g. "面试 + 西装内搭"
+    type: ""                       # human label, e.g. "white button-up shirt"
+    purpose: ""                    # e.g. "interviews + worn under suit jacket"
     must_have: []                  # hard filters; failing one drops the candidate
     nice_to_have: []               # weighted bonuses
     avoid: []                      # hard exclusions

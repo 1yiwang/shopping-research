@@ -34,7 +34,7 @@ This skill is the **upstream / discovery** stage. For downstream price tracking 
 A request YAML following [`request-template.yaml`](request-template.yaml). Minimum fields:
 
 - `context` — life situation driving the purchase (e.g. "Zurich grad, job-hunting in finance/consulting").
-- `image_keywords` — 3–5 style descriptors (e.g. "minimal", "去学生气", "quiet luxury").
+- `image_keywords` — 3–5 style descriptors (e.g. "minimal", "post-student polish", "quiet luxury").
 - `delivery_region` + `currency` — e.g. `Switzerland` / `CHF`.
 - `items[]` — for each item: `type`, `must_have`, `nice_to_have`, `avoid`, `budget`, `size`.
 
