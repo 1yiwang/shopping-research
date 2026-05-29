@@ -15,7 +15,7 @@ A reusable [Cursor Skill](https://cursor.com) for clothing & accessories shoppin
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/shopping-research.git ~/.cursor/skills/shopping-research
+git clone https://github.com/1yiwang/shopping-research.git ~/.cursor/skills/shopping-research
 ```
 
 That's it — open Cursor in any project and the skill is available globally.
