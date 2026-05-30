@@ -1,6 +1,6 @@
 # Roadmap
 
-`shopping-research` is a young skill. v0.1 is the first public release. This document captures the design choices behind it and where it is heading.
+`shopping-assistant` is a young skill. v0.1 is the first public release. This document captures the design choices behind it and where it is heading.
 
 The README has the short list. This file has the *why* and the open questions.
 
@@ -112,12 +112,12 @@ These are decisions the skill currently makes implicitly. They will be revisited
 
 ## 5. Pair with a downstream skill
 
-Once a candidate is selected from a `shopping-research` report, the user often wants:
+Once a candidate is selected from a `shopping-assistant` report, the user often wants:
 
 - **Price-drop alerts** — a small `price-watch` skill, cleanly separate, that takes the chosen URLs as input. The reference [openclaw shopping-price-drop-coupon-scout](https://github.com/openclaw/skills) is a working example of that downstream stage.
 - **Coupon / promo code scout** — same skill, or a sibling.
 
-These stay as separate skills rather than being bolted onto `shopping-research`. Each one focused, each one replaceable.
+These stay as separate skills rather than being bolted onto `shopping-assistant`. Each one focused, each one replaceable.
 
 ## 6. Versioning and release notes
 

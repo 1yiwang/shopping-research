@@ -1,4 +1,4 @@
-# shopping-research — Cursor Agent Skill
+# shopping-assistant — Cursor Agent Skill
 
 A reusable [Cursor Skill](https://cursor.com) for clothing & accessories shopping research across European retailers. From a structured request — item type, image keywords, budget, sizes — it produces a **Cursor Canvas** report with three tiered recommendations per item (*Value / Balanced / Image-first*), a cross-store comparison table, and risk notes.
 
@@ -15,7 +15,7 @@ A reusable [Cursor Skill](https://cursor.com) for clothing & accessories shoppin
 ## Install
 
 ```bash
-git clone https://github.com/1yiwang/shopping-research.git ~/.cursor/skills/shopping-research
+git clone https://github.com/1yiwang/shopping-assistant.git ~/.cursor/skills/shopping-assistant
 ```
 
 That's it — open Cursor in any project and the skill is available globally.
@@ -27,13 +27,13 @@ To verify, ask Cursor: *"List my installed skills"*.
 In any Cursor chat, simply say:
 
 ```
-Run shopping-research: I need a black commuter bag, no logo, suitable for finance / consulting interviews, budget 100 CHF.
+Run shopping-assistant: I need a black commuter bag, no logo, suitable for finance / consulting interviews, budget 100 CHF.
 ```
 
 Or, for a more involved request, fill in [`request-template.yaml`](request-template.yaml), save it as `requests/<YYYY-MM>-<tag>.yaml` in your workspace, and tell the agent:
 
 ```
-Use shopping-research with requests/2026-06-winter-coat.yaml and produce a report.
+Use shopping-assistant with requests/2026-06-winter-coat.yaml and produce a report.
 ```
 
 See [`examples/winter-coat.example.yaml`](examples/winter-coat.example.yaml) for a sanitized full example.

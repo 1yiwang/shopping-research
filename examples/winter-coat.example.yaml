@@ -4,7 +4,7 @@
 # Usage:
 #   1. Copy this file to your workspace as `requests/<YYYY-MM>-winter-coat.yaml`
 #   2. Edit fields with your real data (sizes, budget, image keywords)
-#   3. Tell Cursor: "Use shopping-research with requests/<file>.yaml and produce a report"
+#   3. Tell Cursor: "Use shopping-assistant with requests/<file>.yaml and produce a report"
 
 request:
   context: >-

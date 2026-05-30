@@ -1,4 +1,4 @@
-# Shopping Research request template.
+# Shopping Assistant request template.
 # Fill one of these per shopping round, save under requests/<YYYY-MM>-<tag>.yaml.
 
 request:

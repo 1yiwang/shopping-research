@@ -1,5 +1,5 @@
 ---
-name: shopping-research
+name: shopping-assistant
 description: >-
   Research and compare clothing/accessories across European retailers (Zalando,
   Uniqlo, Mango, H&M, COS, About You, Vinted, etc.) for a structured user
@@ -10,7 +10,7 @@ description: >-
   balanced / image-first), spec comparison, and risk notes.
 ---
 
-# Shopping Research
+# Shopping Assistant
 
 Discover and compare candidate products across multiple European retailers for a structured shopping request, then deliver a Cursor Canvas report.
 
